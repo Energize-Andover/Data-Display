@@ -16,3 +16,8 @@ root-directory-name-here/
 ```
 
 And then run **DataDisplay.py**
+
+#### This project requires the following packages:
+- [numpy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org/)
+- [requests](http://docs.python-requests.org/en/master/)
