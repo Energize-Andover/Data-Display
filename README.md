@@ -9,7 +9,10 @@ In order to run this program, make sure your root directory is structured like s
 root-directory-name-here/
 ├──CSVs/
 │   ├── ahs_air.csv
-│   ├── ahs_air_data.csv (Optional)
+│   ├── ahs_air_data.csv (Optional, not included in repository but will be created after first run)
 │   ├── default-data.csv (Optional, but strongly reccomended, as it improves performance)
 ├── DataDisplay.py
-└── bacnet_gateway_requests.py```
+└── bacnet_gateway_requests.py
+```
+
+And then run **DataDisplay.py**
