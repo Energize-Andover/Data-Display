@@ -127,7 +127,6 @@ def get_air_value_df(hostname, port, selected_room, req_thread):
                 if req_thread.stopped():
                     return None
 
-                print(row['Label'])
                 break
 
             if req_thread.stopped():
@@ -204,7 +203,6 @@ def get_air_values_df(hostname, port, selected_floor, selected_wing, background_
                         df_dictionary['Floor'].append(row['Floor'])
                         df_dictionary['Wing'].append(row['Wing'])
 
-                        print(row['Label'])
                         break
 
                     except KeyboardInterrupt:

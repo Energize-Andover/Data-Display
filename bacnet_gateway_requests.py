@@ -41,7 +41,6 @@ def get_value_and_units(facility, instance, gateway_hostname, gateway_port):
                         units = dc_data['units']
 
             except ConnectionError:
-                print('Connection Error! Retrying...')
                 time.sleep(5)
                 continue
 
