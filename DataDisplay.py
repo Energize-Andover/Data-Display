@@ -487,7 +487,7 @@ def fill_fields(selected_floor, selected_wing, selected_measurement):
                 max_measure = row[measurement_column]
                 max_measure_room = row['Room']
 
-        data_timestamp = filtered_rooms['Date / Time'].get(filtered_rooms['Date / Time'].first_valid_index())
+        data_timestamp = filtered_rooms['Date / Time'].get(filtered_rooms['Date / Time'].last_valid_index())
 
         update_labels(avg_measure, max_measure, max_measure_room, unit, data_timestamp)
 
